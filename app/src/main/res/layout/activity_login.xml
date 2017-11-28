@@ -27,9 +27,7 @@
         android:layout_below="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextClock
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+
 
         <AutoCompleteTextView
             android:layout_width="match_parent"
