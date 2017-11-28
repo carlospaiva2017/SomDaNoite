@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/gelo">
+
+    <TextView
+        android:id="@+id/texto_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_teste"
+        android:textColor="@color/cinza"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_botao_tema"
+        android:text="@string/ok"
+        android:padding="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

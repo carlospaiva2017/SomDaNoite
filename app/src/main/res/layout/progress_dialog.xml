@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center_horizontal|center_vertical">
+
+    <TextView
+        android:id="@+id/dialog_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/title_margin"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textSize="12sp"
+        android:textColor="@color/colorAccent"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicator="BallSpinFadeLoader"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicator="BallPulse"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicator="BallClipRotateMultiple"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicator="LineScale"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:indicator="BallRotate"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        app:indicator="LineSpinFadeLoader"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:indicator="BallGridBeat"
+        app:indicator_color="@color/colorAccent" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/pd_modelo_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:indicator="BallScaleRipple"
+        app:indicator_color="@color/colorAccent" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/gelo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informar_email_cadastro"
+        android:textColor="@color/cinza"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp" >
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/digita_email_cadastro"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/fundo_caixa_texto_escuro"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gelo"
+            android:hint="@string/digita_email_cadastro"
+            android:imeOptions="actionNext"
+            android:layout_alignParentStart="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="36dp">
+
+        <Button
+            android:id="@+id/bt_reseta_senha_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_botao_tema"
+            android:text="@string/confirmar"
+            android:layout_weight="1"
+            android:padding="4dp"
+            />
+
+        <Button
+            android:id="@+id/bt_cancelar_reseta_senha_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_botao_excluir"
+            android:text="@string/cancelar"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:layout_marginStart="36dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

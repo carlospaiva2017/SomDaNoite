@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="60dp"
+    android:background="@color/gelo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/fundo_tabbed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/pronto"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/agora_voc_j_pode_utilizar_o_aplicativo_som_da_noite"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/aqui_voc_encontra_os_melhores_eventos_que_est_o_para_acontecer_na_sua_regi_o"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/comece_agora"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_iniciar_app"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/ver_eventos"
+        android:visibility="gone"/>
+
+</LinearLayout>

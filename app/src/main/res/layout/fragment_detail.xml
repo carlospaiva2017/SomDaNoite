@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.fafeltech.somdanoite.fragment.DetailFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_degrade">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+
+       <TextView
+           android:id="@+id/titulo_evento"
+           android:gravity="center"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="@string/nome_evento"
+           android:textSize="20sp"
+           android:textColor="@color/gelo"
+           android:layout_marginTop="20dp"
+           android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/image_favorite"
+            android:src="@drawable/ic_action_star_0"
+            android:tint="@color/gelo"
+            android:contentDescription="@string/favorito"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:layout_gravity="center_vertical|end" />
+
+        <ImageView
+            android:id="@+id/edit_evento"
+            android:src="@drawable/ic_action_edit"
+            android:tint="@color/gelo"
+            android:contentDescription="@string/editar_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="0dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical|end" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:foreground="?attr/selectableItemBackground"
+       android:layout_margin="10dp"
+       android:clickable="true"
+       android:background="@drawable/fundo_botao"
+       tools:cardElevation="3dp"
+       android:padding="5dp">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           tools:ignore="UselessParent">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="Nome do Evento:"
+                       android:layout_weight="1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:padding="5dp"/>
+
+                   <TextView
+                       android:id="@+id/detail_nome_evento"
+                       android:layout_weight="3"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="18sp"
+                       android:textStyle="bold"
+                       android:padding="5dp"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="Música por:"
+                       android:layout_weight="1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:padding="5dp" />
+
+                   <TextView
+                       android:id="@+id/detail_nome_artista"
+                       android:layout_weight="3"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:textStyle="bold"
+                       android:padding="5dp" />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="Local:"
+                       android:layout_weight="1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:padding="5dp"/>
+
+                   <TextView
+                       android:id="@+id/detail_local_evento"
+                       android:layout_weight="3"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:textStyle="bold"
+                       android:padding="5dp"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="Data:"
+                       android:layout_weight="1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:padding="5dp"/>
+
+                   <TextView
+                       android:id="@+id/detail_data_evento"
+                       android:layout_weight="3"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:textSize="16sp"
+                       android:textStyle="bold"
+                       android:padding="5dp"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="@string/detalhes"
+                       android:textColor="@color/gelo"
+                       android:textSize="14sp"
+                       android:padding="5dp" />
+
+                   <TextView
+                       android:id="@+id/detail_conteudo_evento"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/gelo"
+                       android:layout_weight="3"
+                       android:textSize="14sp"
+                       android:padding="5dp"/>
+
+               </LinearLayout>
+
+           </LinearLayout>
+       </ScrollView>
+   </LinearLayout>
+</LinearLayout>

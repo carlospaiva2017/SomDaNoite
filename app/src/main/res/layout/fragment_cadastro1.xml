@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="50dp"
+    android:background="@color/gelo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/selecione_abaixo_a_sua_categoria_de_cadastro"
+        android:textColor="@color/cinza"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <Button
+        android:id="@+id/bt_email1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gelo"
+        android:text="@string/profissional_da_m_sica"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/bt_email2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gelo"
+        android:text="@string/estabelecimento"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/bt_email3"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/promotor_de_eventos"
+        android:textColor="@color/gelo"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/bt_email4"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gelo"
+        android:text="@string/usuario"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

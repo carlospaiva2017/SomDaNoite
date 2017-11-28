@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/pesquisar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        android:imeOptions="actionSearch"/>
+
+    <item
+        android:id="@+id/minha_conta"
+        android:title="@string/minha_conta"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/criar_evento"
+        android:title="@string/botao_criar_evento"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sobre_app"
+        android:title="@string/sobre_o_aplicativo"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sair"
+        android:title="@string/sair"
+        android:orderInCategory="500"
+        app:showAsAction="never" />
+
+</menu>
