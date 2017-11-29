@@ -6,6 +6,7 @@ import android.view.View;
 
 import br.com.fafeltech.somdanoite.R;
 import br.com.fafeltech.somdanoite.fragment.PesquisaFragment;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 
 public class PesquisaActivity extends BaseActivity {
 

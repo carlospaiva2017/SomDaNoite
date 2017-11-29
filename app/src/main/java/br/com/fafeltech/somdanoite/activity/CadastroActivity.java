@@ -28,6 +28,7 @@ import br.com.fafeltech.somdanoite.dialog.ArtistaDialog;
 import br.com.fafeltech.somdanoite.dialog.EstabelecimentoDialog;
 import br.com.fafeltech.somdanoite.dialog.PromoterDialog;
 import br.com.fafeltech.somdanoite.fragment.BaseFragment;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 import br.com.fafeltech.somdanoite.helper.ParseErros;
 
 import static br.com.fafeltech.somdanoite.R.id.container;

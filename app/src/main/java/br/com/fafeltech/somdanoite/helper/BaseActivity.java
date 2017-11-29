@@ -1,4 +1,4 @@
-package br.com.fafeltech.somdanoite.activity;
+package br.com.fafeltech.somdanoite.helper;
 
 import android.content.Context;
 import android.graphics.Bitmap;

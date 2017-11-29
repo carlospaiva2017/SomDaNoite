@@ -31,6 +31,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import br.com.fafeltech.somdanoite.R;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 import br.com.fafeltech.somdanoite.helper.Masking;
 import br.com.fafeltech.somdanoite.helper.Permissao;
 import br.com.fafeltech.somdanoite.model.Evento;

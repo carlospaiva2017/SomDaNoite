@@ -20,6 +20,7 @@ import com.parse.ParseUser;
 
 import br.com.fafeltech.somdanoite.R;
 import br.com.fafeltech.somdanoite.fragment.MainFragment;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
 

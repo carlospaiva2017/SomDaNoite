@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import br.com.fafeltech.somdanoite.R;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 
 public class SobreAppActivity extends BaseActivity {
 

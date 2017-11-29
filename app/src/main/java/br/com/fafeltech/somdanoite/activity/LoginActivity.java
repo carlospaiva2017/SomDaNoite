@@ -16,6 +16,7 @@ import com.parse.RequestPasswordResetCallback;
 
 import br.com.fafeltech.somdanoite.R;
 import br.com.fafeltech.somdanoite.dialog.LoginDialog;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 import br.com.fafeltech.somdanoite.helper.ParseErros;
 
 public class LoginActivity extends BaseActivity {

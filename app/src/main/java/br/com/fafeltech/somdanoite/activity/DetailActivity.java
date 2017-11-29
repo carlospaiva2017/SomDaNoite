@@ -11,6 +11,7 @@ import com.google.android.gms.ads.InterstitialAd;
 
 import br.com.fafeltech.somdanoite.R;
 import br.com.fafeltech.somdanoite.fragment.DetailFragment;
+import br.com.fafeltech.somdanoite.helper.BaseActivity;
 
 public class DetailActivity extends BaseActivity {
 
