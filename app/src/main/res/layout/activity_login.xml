@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,17 +12,6 @@
     android:gravity="center_vertical|center_horizontal"
     tools:context="br.com.fafeltech.somdanoite.activity.LoginActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="76dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:contentDescription="@string/logotipo"
-        android:src="@drawable/logo1_somdanoite_branco"
-        android:tint="@color/colorAccent"/>
-
     <android.support.design.widget.TextInputLayout
         android:id="@+id/input_usuario"
         android:layout_below="@+id/imageView"
@@ -30,18 +20,18 @@
 
 
         <AutoCompleteTextView
+            android:id="@+id/edit_usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
             android:background="@drawable/fundo_caixa_texto"
+            android:hint="@string/digita_usuario"
+            android:imeOptions="actionNext"
+            android:inputType="textAutoComplete"
             android:padding="12dp"
             android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
-            android:inputType="textAutoComplete"
-            android:hint="@string/digita_usuario"
-            android:id="@+id/edit_usuario"
-            android:imeOptions="actionNext"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="10dp"/>
+            android:textColorHint="@android:color/white" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -139,4 +129,13 @@
             android:paddingEnd="5dp"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/input_usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/logo" />
 </RelativeLayout>
