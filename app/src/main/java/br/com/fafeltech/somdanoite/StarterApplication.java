@@ -46,7 +46,7 @@ public class StarterApplication extends Application {
     defaultACL.setPublicReadAccess(true);
   }
   /*
-  * teste de update
+  * teste de update mudança pro repositorio do Paiva
   *
   * */
 }
