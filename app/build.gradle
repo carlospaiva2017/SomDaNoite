@@ -47,4 +47,5 @@ dependencies {
     implementation 'com.github.d-max:spots-dialog:0.4@aar'
     implementation'com.google.android.gms:play-services-ads:11.6.2'
     testImplementation 'junit:junit:4.12'
+    compile 'com.facebook.android:facebook-login:4.28.0'
 }
