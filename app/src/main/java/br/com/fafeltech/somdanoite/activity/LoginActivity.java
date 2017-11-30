@@ -29,11 +29,11 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        editUsuario = (EditText) findViewById(R.id.edit_usuario);
-        editSenha = (EditText) findViewById(R.id.edit_senha);
-        TextView textoCadastrar = (TextView) findViewById(R.id.textView_cadastrar);
-        TextView esqueceuSenha = (TextView) findViewById(R.id.esqueci_senha);
-        Button botaoLogar = (Button) findViewById(R.id.botao_logar);
+        editUsuario =  findViewById(R.id.edit_usuario);
+        editSenha =  findViewById(R.id.edit_senha);
+        TextView textoCadastrar = findViewById(R.id.textView_cadastrar);
+        TextView esqueceuSenha = findViewById(R.id.esqueci_senha);
+        Button botaoLogar = findViewById(R.id.botao_logar);
 
         //verificar se usuário esta logado
         veridicarUsuarioLogado();
@@ -62,9 +62,9 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 View view = getLayoutInflater().inflate(R.layout.dialog_reseta_senha, null, false);
-                final EditText digitaEmail = (EditText) view.findViewById(R.id.digita_email_cadastro);
-                Button confirmaResetaSenha = (Button) view.findViewById(R.id.bt_reseta_senha_dialog);
-                Button cancelar = (Button) view.findViewById(R.id.bt_cancelar_reseta_senha_dialog);
+                final EditText digitaEmail = view.findViewById(R.id.digita_email_cadastro);
+                Button confirmaResetaSenha = view.findViewById(R.id.bt_reseta_senha_dialog);
+                Button cancelar = view.findViewById(R.id.bt_cancelar_reseta_senha_dialog);
 
                 final AlertDialog dialog = criarDialog(view);
 

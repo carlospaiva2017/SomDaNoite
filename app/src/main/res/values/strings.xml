@@ -6,6 +6,8 @@
     <string name="facebook_app_id">1933281433626916</string>
     <string name="fb_login_protocol_scheme">fb1933281433626916</string>
 
+    <string name="facebook_login_app_id">1969126016738538</string>
+
     <string name="loading">Carregando&#8230;</string>
     <string name="localized_digits">0123456789,-</string>
 
