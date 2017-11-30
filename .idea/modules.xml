@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SomDaNoite.iml" filepath="$PROJECT_DIR$/SomDaNoite.iml" />
       <module fileurl="file://C:\workspace\Android\SomDaNoite-thalles\SomDaNoite.iml" filepath="C:\workspace\Android\SomDaNoite-thalles\SomDaNoite.iml" />
-      <module fileurl="file://C:\Work\SomDaNoite\SomDaNoite.iml" filepath="C:\Work\SomDaNoite\SomDaNoite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SomDaNoite-thalles.iml" filepath="$PROJECT_DIR$/SomDaNoite-thalles.iml" />
       <module fileurl="file://C:\Work\SomDaNoite\SomDaNoite-thalles.iml" filepath="C:\Work\SomDaNoite\SomDaNoite-thalles.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\workspace\Android\SomDaNoite-thalles\app\app.iml" filepath="C:\workspace\Android\SomDaNoite-thalles\app\app.iml" />
-      <module fileurl="file://C:\Work\SomDaNoite\app\app.iml" filepath="C:\Work\SomDaNoite\app\app.iml" />
     </modules>
   </component>
 </project>
