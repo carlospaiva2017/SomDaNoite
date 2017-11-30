@@ -27,6 +27,7 @@ import br.com.fafeltech.somdanoite.R;
 import br.com.fafeltech.somdanoite.activity.CadastroActivity;
 import br.com.fafeltech.somdanoite.activity.FacebookLoginActivity;
 
+
 public class LoginDialog extends AlertDialog {
 
 
