@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -35,17 +36,22 @@ public class FacebookLoginActivity extends Activity {
                 new FacebookCallback<LoginResult>() {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
-                        // App code
+                        // Fazer o cadastro no parse
+                        //nome , email , tipo
                     }
 
                     @Override
                     public void onCancel() {
                         // App code
+                        Toast.makeText(FacebookLoginActivity.this, "Cadastro Cancelado!",
+                                Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
                     public void onError(FacebookException exception) {
                         // App code
+                        Toast.makeText(FacebookLoginActivity.this, "Houve Erro ao Fazer o login!!!",
+                                Toast.LENGTH_SHORT).show();
                     }
                 });
 
