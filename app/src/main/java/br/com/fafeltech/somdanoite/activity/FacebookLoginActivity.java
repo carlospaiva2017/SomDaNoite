@@ -35,7 +35,7 @@ public class FacebookLoginActivity extends Activity {
                 new FacebookCallback<LoginResult>() {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
-                        // App code
+
                     }
 
                     @Override
